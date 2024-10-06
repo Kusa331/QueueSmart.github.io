@@ -1,0 +1,123 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #eef2f3; /* Light background color */
+    color: #333; /* Dark text color */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px; /* Max width for the container */
+    margin: 20px auto; /* Center the container */
+    padding: 20px;
+    background: #fff; /* White background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+header {
+    display: flex; /* Flexbox layout */
+    justify-content: space-between; /* Space between header items */
+    align-items: center; /* Align items center vertically */
+    background-color: #2c3e50; /* Dark background for the header */
+    color: white; /* White text */
+    padding: 15px;
+    border-radius: 10px 10px 0 0; /* Rounded top corners */
+}
+
+h1 {
+    font-size: 24px; /* Font size for the header */
+}
+
+.header-buttons {
+    display: flex; /* Flexbox layout for buttons */
+    gap: 10px; /* Space between buttons */
+}
+
+.register, .logout {
+    padding: 10px 15px; /* Padding for the buttons */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition on hover */
+}
+
+.register {
+    background-color: #3498db; /* Blue background for the registration button */
+    color: white; /* White text for the button */
+}
+
+.register:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
+
+.logout {
+    background-color: #e74c3c; /* Red background for the logout button */
+    color: #fff; /* White text for the button */
+}
+
+.logout:hover {
+    background-color: #c0392b; /* Darker red on hover */
+}
+
+.dashboard, .appointments, .notifications, .help {
+    margin-top: 20px; /* Margin on top of sections */
+    padding: 15px; /* Padding inside sections */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light gray background */
+}
+
+h2 {
+    color: #2c3e50; /* Dark color for section headings */
+    border-bottom: 2px solid #2c3e50; /* Underline for headings */
+    padding-bottom: 10px; /* Padding below heading */
+}
+
+.stats {
+    display: flex; /* Flexbox layout for stats */
+    justify-content: space-around; /* Space items evenly */
+}
+
+.stat-item {
+    text-align: center; /* Center text inside items */
+    flex: 1; /* Flex grow */
+    padding: 20px; /* Padding inside stat items */
+    border: 1px solid #2c3e50; /* Dark border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #fff; /* White background */
+    transition: transform 0.3s; /* Smooth transition on hover */
+}
+
+.stat-item:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.stat-number {
+    font-size: 28px; /* Larger font size for numbers */
+    font-weight: bold; /* Bold text for emphasis */
+    color: #2c3e50; /* Dark color for numbers */
+}
+
+ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* No padding */
+}
+
+li {
+    padding: 10px; /* Padding inside list items */
+    border-bottom: 1px solid #ccc; /* Light border for list items */
+}
+
+li:last-child {
+    border-bottom: none; /* Remove border for the last item */
+}
+
+.help a {
+    color: #3498db; /* Blue color for links */
+    text-decoration: none; /* No underline for links */
+}
+
+.help a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
